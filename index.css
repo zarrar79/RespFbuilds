@@ -49,14 +49,13 @@
       margin-left: 8vh;
     }
   }
-  @media screen and (max-width:1200px) {
-    .header{
-      margin-left: 0vh;
-      margin-right: 0vh;
-    }
-  }
    .leftside{
     display: flex;
+  }
+  @media screen and (max-width:1200px) {
+    .leftside{
+      padding-left: 55px;
+    }
   }
   .fresh{
     margin-top: .3vh;
@@ -75,7 +74,12 @@
     font-weight: 700;
     font-size: 16px ;
     color: rgba(50, 44, 78, 1);
-  } 
+  }
+  @media screen and  (max-width:1200px){
+   .right{
+    padding-right: 55px;
+   }
+  }
   .sechome{
     position: relative;
    background-image: radial-gradient(rgba(227, 227, 227, 1),
@@ -223,6 +227,7 @@
   }
   @media screen and (max-width:1200px) {
     .searchf{
+      padding-top: 13px;
       margin: 0px;
       margin-top: 30px;
     }

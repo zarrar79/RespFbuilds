@@ -52,17 +52,17 @@
    .leftside{
     display: flex;
   }
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width:1199px) {
     .leftside{
-      padding-left: 90px;
+       padding-left: 14vh;
     }
   }
   .fresh{
     margin-top: .3vh;
     margin-left: 0.5vh;
     font-family: Avenir;
-     font-weight: 400;
-     font-size: 20px;
+    font-weight: 400;
+    font-size: 20px;
   }
   .build{
     font-family: Avenir;
@@ -72,7 +72,7 @@
   .right{
     font-family: Airbnb Cereal App;
     font-weight: 700;
-    font-size: 16px ;
+    font-size: 16px;
     color: rgba(50, 44, 78, 1);
   }
   @media screen and  (min-width:1200px){
@@ -93,7 +93,7 @@
     }
   }
   .lefth{
-     top:9.5vh;
+     top:3rem;
     position: absolute;
   
   }
@@ -101,9 +101,6 @@
     .lefth{
       display: none;
     }
-  }
-  @media screen and (min-width:1200px){
-    
   }
   .righth{
     text-align: center;
@@ -137,6 +134,7 @@
   }
   @media screen and (min-width:1200px){
     .discover{
+      padding-top: 8vh;
       display: flex;
       justify-content: center;
     }
@@ -155,14 +153,13 @@
   }
   .from{
     margin-top: 2vh;
-    margin-left: 65vh;
-    width: 75%;
+    /* margin-left: 25rem; */
+    width: auto;
     text-align: center;
     font-family: Airbnb Cereal App;
     font-weight: 500;
     font-size: 20px;
      color: rgba(50, 44, 78, 1);
-     padding-right: 80vh;
      z-index: 2;
   }
   @media screen and (max-width:600px) {
@@ -172,6 +169,13 @@
       font-weight: 400;
       font-size: 13px;
       width: 100%;
+
+    }
+  }
+  @media screen and (min-width:1200px) {
+    .from{
+      margin-left: 21.4rem;
+      width: 50%;
     }
   }
   .searchf{
@@ -239,12 +243,17 @@
   }
   @media screen and (max-width:600px){
     .john{
-    left: 72vh;
-    right: 2vh;
+    left: 73vh;
+    right: 0vh;
     font-weight: 300;
     font-size: 11px;
     line-height: normal;
     padding-right: 2vh;
+    }
+  }
+  @media screen and (min-width:1200px) {
+    .john{
+      left: 854px;
     }
   }
   .daunthome{
@@ -338,6 +347,16 @@
     bottom: 4vh;
     right: 15vh;
     height: 50vh;
+  }
+  @media screen and (min-width:1200px) {
+    .timage .img{
+      border: 1px red solid;
+    }
+    .tright{
+      /* padding-left: 100px; */
+      padding-right: 0vh;
+      border: 1px red solid;
+    }
   }
   .timage img{
   }

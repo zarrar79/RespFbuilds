@@ -352,8 +352,10 @@
     .tright{
       padding-right: 0vh;
     }
-  }
-  .timage img{
+    .timage{
+      bottom: 35px;
+      right: 0vh;
+    }
   }
   .all{
     margin-top: 2.6vh;
@@ -381,10 +383,20 @@
      grid-template-columns: 1fr 1.1fr;
      font-family: Airbnb Cereal App;
   }
+  @media screen and (min-width:1200px){
+    .fgrid{
+      grid-template-columns: 1.1fr 1fr;
+    }
+  }
   .fleft .all{
     padding-top: 7vh;
     margin-left: 38vh;
-    padding-bottom: 27px;
+    padding-bottom:27px;
+  }
+  @media screen and (min-width:1200px) {
+    .fleft .all{
+      margin-left: 30vh;
+    }
   }
   .fright  .dollar{
     margin-top: 2px;
@@ -398,9 +410,6 @@
   }
   .fflex{
     display: flex;
-  }
-  .fxr{
-
   }
   .find{
     font-family: Airbnb Cereal App;

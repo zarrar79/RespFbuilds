@@ -276,7 +276,7 @@
   }
   .buy{
     line-height: 39px;
-    text-align:center;
+    text-align: center;
     padding-top: 9vh;
   }
   @media screen and (max-width:600px) {
@@ -319,7 +319,7 @@
     box-shadow: 0px 4px 44px 0px  rgba(14, 21, 50, 0.1);
   }
   .dollar{
-     margin-bottom: 4.5vh;
+     margin-bottom:4.5vh;
   }
   .dbold{
     font-weight: 800;
@@ -418,7 +418,7 @@
     margin-top: 12vh;
     padding-top: 12vh;
     padding-left: 35vh;
-    /* padding-right: 3vh; */
+    /*adding-right: 3vh;*/
     color: 
     rgba(14, 21, 50, 1);
   }
@@ -589,8 +589,8 @@
     margin-left: 3vh;
      font-weight: 700;
      font-size: 16px;
-     color:rgba(50, 44, 78, 1);
-  }
+    color:rgba(50, 44, 78, 1);
+    }
   .bd,.bth,.sqfeet{
     font-weight: 400;
     font-size: 14px;

@@ -52,7 +52,7 @@
    .leftside{
     display: flex;
   }
-  @media screen and (max-width:1200px) {
+  @media screen and (min-width:1200px) {
     .leftside{
       padding-left: 55px;
     }
@@ -75,7 +75,7 @@
     font-size: 16px ;
     color: rgba(50, 44, 78, 1);
   }
-  @media screen and  (max-width:1200px){
+  @media screen and  (min-width:1200px){
    .right{
     padding-right: 55px;
    }
@@ -120,7 +120,7 @@
       margin-left: 0vh;
     }
   }
-  @media screen and (max-width:1200px) {
+  @media screen and (min-width:1200px) {
     .righth{
       margin-left: 0vh;
       z-index: 1;
@@ -138,7 +138,7 @@
     Airbnb Cereal App;
     padding-right: 44vh;
   }
-  @media screen and (max-width:1200px){
+  @media screen and (min-width:1200px){
     .discover{
       padding: 0px;
       padding-left: 0px;
@@ -180,7 +180,7 @@
       width: 100%;
     }
   }
-  @media screen and (max-width:1200px) {
+  @media screen and (min-width:1200px) {
     .from{
       /* padding-top: 1vh;
       padding-left: 20vh;
@@ -214,7 +214,7 @@
     align-items: center;
     justify-content: center;
   }
-  @media screen and (max-width:600px) {
+  @media screen and (min-width:600px) {
     .searchf{
        margin: 0vh;
       width:150px ;
@@ -225,7 +225,7 @@
       justify-items: center;
     }
   }
-  @media screen and (max-width:1200px) {
+  @media screen and (min-width:1200px) {
     .searchf{
       padding-top: 13px;
       margin: 0px;

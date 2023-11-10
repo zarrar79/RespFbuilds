@@ -337,7 +337,7 @@
   }
   .tmid{
     font-family: Airbnb Cereal App;
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
   .tright{
     position: relative;
@@ -349,13 +349,8 @@
     height: 50vh;
   }
   @media screen and (min-width:1200px) {
-    .timage .img{
-      border: 1px red solid;
-    }
     .tright{
-      /* padding-left: 100px; */
       padding-right: 0vh;
-      border: 1px red solid;
     }
   }
   .timage img{

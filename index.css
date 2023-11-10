@@ -54,7 +54,7 @@
   }
   @media screen and (min-width:1200px) {
     .leftside{
-      padding-left: 55px;
+      padding-left: 90px;
     }
   }
   .fresh{
@@ -77,7 +77,7 @@
   }
   @media screen and  (min-width:1200px){
    .right{
-    padding-right: 55px;
+    padding-right: 90px;
    }
   }
   .sechome{
@@ -103,11 +103,7 @@
     }
   }
   @media screen and (min-width:1200px){
-    .lefth{
-      width: 300px;
-      height: auto;
-      z-index: 1;
-    }
+    
   }
   .righth{
     text-align: center;
@@ -137,16 +133,14 @@
     font-family: 
     Airbnb Cereal App;
     padding-right: 44vh;
+    padding-left: 44vh;
   }
   @media screen and (min-width:1200px){
     .discover{
-      padding: 0px;
-      padding-left: 0px;
-      padding-top: 30px;
+      display: flex;
+      justify-content: center;
     }
-    .from{
 
-    }
   }
   @media screen and (max-width:600px){
     .discover{
@@ -161,14 +155,14 @@
   }
   .from{
     margin-top: 2vh;
-    margin-left: 19vh;
+    margin-left: 65vh;
     width: 75%;
     text-align: center;
     font-family: Airbnb Cereal App;
     font-weight: 500;
     font-size: 20px;
      color: rgba(50, 44, 78, 1);
-     padding-right: 40vh;
+     padding-right: 80vh;
      z-index: 2;
   }
   @media screen and (max-width:600px) {
@@ -180,32 +174,19 @@
       width: 100%;
     }
   }
-  @media screen and (min-width:1200px) {
-    .from{
-      /* padding-top: 1vh;
-      padding-left: 20vh;
-      padding-right: 20vh; */
-      padding: 0vh;
-      margin: 0px;
-      font-weight: 400;
-      /* font-size: 13px; */
-      width: 100%;
-      
-    }
-  }
   .searchf{
     padding-top: 2.1vh;
     padding-bottom: 2.1vh;
     cursor:pointer;
     margin-top: 4vh;
-    margin-left: 47vh;
+    margin-left: vh;
     font-family: Airbnb Cereal App;
     font-weight: 600;
     font-size: 15px;
-    color: 
+    color:
     rgba(255, 255, 255, 1);
-    width: 192px;
-    height: 52px;
+    width: 200px;
+    height: 55px;
     border-radius: 5px;
     border: 1px solid rgba(232, 127, 63, 1);   
     background-color: 
@@ -213,28 +194,22 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    }
+  @media screen and (min-width:1200px) {
+    .search{
+      display: flex;
+      justify-content: center;
+    }
   }
-  @media screen and (min-width:600px) {
+  @media screen and (max-width:600px) {
     .searchf{
        margin: 0vh;
       width:150px ;
       height: 47px;
       font-size: 13px;
-      font-weight: 550;
+      font-weight: 600;
       justify-content:center;
       justify-items: center;
-    }
-  }
-  @media screen and (min-width:1200px) {
-    .searchf{
-      padding-top: 13px;
-      margin: 0px;
-      margin-top: 30px;
-    }
-    .search{
-     display: flex;
-     justify-content: center;
-     margin-top: px;
     }
   }
   .thome{

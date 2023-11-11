@@ -348,6 +348,13 @@
   .forimg{
     position: relative;
   }
+  @media screen and (min-width:992px) and (max-width:1199px) {
+    .timage img{
+      bottom: -14vh;
+      right: -10vh;
+      z-index: 1;
+    }
+  }
   @media screen and (min-width:1200px) {
     .tright{
       position: relative;
@@ -355,6 +362,14 @@
     .timage img{
       right: 1px;
       bottom: -94px;
+    }
+  }
+  @media screen and (min-width:992px) and (max-width:1199px) {
+    .timage img{
+      top: -87px;
+      z-index: 1;
+      opacity: 0.8;
+      right: 0.9px;
     }
   }
   .all{
@@ -367,9 +382,14 @@
     padding-top: 7vh;
     background-color: 
     rgba(255, 255, 255, 1);
-  }
+    }
   .tmid .all{
     max-width: 370px;
+  }
+  @media screen and (min-width:992px) and (max-width:1199px) {
+    .tmid{
+      z-index: 2;
+    }
   }
   .tmid .all{
     padding-top: 8vh;
@@ -379,15 +399,25 @@
     margin-top: 2vh;
      grid-template-columns: 1fr 1.1fr;
      font-family: Airbnb Cereal App;
-     width: 80%;
+     width: 80%; 
      
+  }
+  .fright{
+    margin-left: 34px;
+  }
+  @media screen and (min-width:992px) and (max-width:1199px) {
+    .fgrid{
+      grid-template-columns: 1fr 1.5fr;
+      gap: 28px;
+      margin-left: 104px;
+    }
+    .fright{
+      margin-left: 0px;
+    }
   }
   .fleft .all{
     padding-top: 7vh;
     padding-bottom: 27px;
-  }
-  .fright{
-    margin-left: 34px;
   }
   @media screen and (min-width:1200px){
     .fleft .all{

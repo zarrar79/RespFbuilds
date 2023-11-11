@@ -27,7 +27,6 @@
     padding: auto;
     width: 100%;
     max-width: 1400px;
-    position: relative;
   }
   .tfoot{
     margin: 0 auto;
@@ -217,6 +216,7 @@
     }
   }
   .thome{
+
     font-family: Avenir;
     font-weight: 800;
     font-size: 26px;
@@ -236,7 +236,6 @@
     font-size: 16px;
     line-height: 20.83px;
     margin-top:  2.5vh;
-    left:990px;
     right: 50px;
     box-shadow: 0 6px 40px 0 rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -253,7 +252,7 @@
   }
   @media screen and (min-width:1200px) {
     .john{
-      left: 854px;
+      right: 46px;
     }
   }
   .daunthome{
@@ -342,19 +341,20 @@
   .tright{
     position: relative;
   }
-  .timage{
+  .timage img{
     position: absolute;
     bottom: 4vh;
-    right: 15vh;
-    height: 50vh;
+  }
+  .forimg{
+    position: relative;
   }
   @media screen and (min-width:1200px) {
     .tright{
-      padding-right: 0vh;
+      position: relative;
     }
-    .timage{
-      bottom: 35px;
-      right: 0vh;
+    .timage img{
+      right: 1px;
+      bottom: -94px;
     }
   }
   .all{
@@ -371,9 +371,6 @@
   .tmid .all{
     max-width: 370px;
   }
-  .timage{
-    margin-left: 6.6vh;
-  }
   .tmid .all{
     padding-top: 8vh;
   }
@@ -382,20 +379,19 @@
     margin-top: 2vh;
      grid-template-columns: 1fr 1.1fr;
      font-family: Airbnb Cereal App;
-  }
-  @media screen and (min-width:1200px){
-    .fgrid{
-      grid-template-columns: 1.1fr 1fr;
-    }
+     width: 80%;
+     
   }
   .fleft .all{
     padding-top: 7vh;
-    margin-left: 38vh;
-    padding-bottom:27px;
+    padding-bottom: 27px;
   }
-  @media screen and (min-width:1200px) {
+  .fright{
+    margin-left: 34px;
+  }
+  @media screen and (min-width:1200px){
     .fleft .all{
-      margin-left: 30vh;
+      margin-left: 31vh;
     }
   }
   .fright  .dollar{
@@ -408,6 +404,11 @@
     padding-right: 11vh;
     padding-bottom: 27px;
   }
+  @media screen and (min-width:1200px) {
+    .fright .all{
+      padding-bottom: 23px;
+    }
+  }
   .fflex{
     display: flex;
   }
@@ -417,7 +418,7 @@
     font-size: 26px;
     margin-top: 12vh;
     padding-top: 12vh;
-    padding-left: 35vh;
+    padding-left: 25vh;
     /*adding-right: 3vh;*/
     color: 
     rgba(14, 21, 50, 1);
@@ -428,7 +429,7 @@
     font-weight:400;
     font-size :16px; 
     padding-top: 1vh;
-    padding-left: 35vh;
+    padding-left: 25vh;
   }
   .fxl{
     flex-basis: 50%;
@@ -441,7 +442,7 @@
     margin-top: 6vh;
     font-weight: 0;
     font-size: 0;
-    margin-left: 34vh;
+    margin-left: 25vh;
     font-family: Airbnb Cereal App;
     font-weight: 600;
     font-size: 15px;
@@ -643,7 +644,6 @@
   .simage{
     margin-top: 30px;
      margin-left: 16vh;
-     border: 1px red solid;
   }
   .whatever{
     margin-top: 11vh;
@@ -787,8 +787,13 @@
     width: 65vh;
     height: auto;
     position: absolute;
-    left: 105vh;
-    bottom: 10vh;
+    left: 110vh;
+    top: 11px;
+  }
+  @media screen and (max-width:1200px) {
+    .imagef img{
+      left: 92vh;
+    }
   }
   .foot{
     background-color:rgba(50, 44, 78, 1);
@@ -835,9 +840,24 @@
     display: flex;
     margin-top: 3vh;
   }
+  @media screen and (max-width:1200px) {
+    .lastflex{
+      margin-left: 33px;
+    }
+  }
   .terms, .reserved{
     margin-left: 18px;
   }
+  @media screen and (max-width:1200px) {
+    .terms,.reserved{
+      margin-left: 13px;
+    }
+  }
   .lasimg{
-    margin-left: 95vh;
+    margin-left: 105vh;
+  }
+  @media screen and (max-width:1200px) {
+    .lasimg{
+      margin-left: 95vh;
+    }
   }

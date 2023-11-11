@@ -199,6 +199,9 @@
     justify-content: center;
     }
   @media screen and (min-width:1200px) {
+    .searchf{
+      padding-top:14px;
+    }
     .search{
       display: flex;
       justify-content: center;
